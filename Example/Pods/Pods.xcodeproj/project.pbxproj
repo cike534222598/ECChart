@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0750D45CA4BB105CD662B30074735652 /* ECRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A0DF492BF3C33F7468BB5098FA0447 /* ECRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE7455833EBECEA2D9E1FF78A21AE5E /* ECPieItemsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA93079B3D280659E324C622503D4F7 /* ECPieItemsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10BC9D13E958E4A2BE2388CFD3813F99 /* ECPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 6922235A8C851FADAABD7E0870C9D347 /* ECPieChart.m */; };
+		1F0D84EBB2B670E46850FA27CC0114B6 /* Pods-ECChart_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12C2D604B0C9CD998804370269B1693 /* Pods-ECChart_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FAFAE89F2C7BE5F2EA57B6E29D87F98 /* ECShowInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C4B784699D0E448ED0E1E6AB04BC69 /* ECShowInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22E09E9DF4DC964472528E7C69FCDE01 /* Pods-ECChart_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E214E7304695C7482B34F190368427B4 /* Pods-ECChart_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2889EDB422AC2ED0DBB8B5B2C2CB8C7F /* ECTableChart.m in Sources */ = {isa = PBXBuildFile; fileRef = FD07D99200FA518D04C6DADD604CD390 /* ECTableChart.m */; };
+		2BF8370A2C399B9F0B1F75C860B3AD45 /* ECChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7089B2993E9CB165B7C048F47E54ED7 /* ECChart-dummy.m */; };
+		2EFFFBAC9EC6E95623323D1CCFC41E7F /* ECTableDataRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BF6AC6BEC61D9230041E4577462DE2 /* ECTableDataRowModel.m */; };
+		3B95032A5ABF4A049403978C04144D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		40F443C2197F0249E1CF9421EA852B7F /* ECRingChart.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B21A4E6E98F07CB374113FD4AFC670 /* ECRingChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435DB9B8FBB014DEA9BECF2C8848BA7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		59C6ED500978E35EBBEB39CB7F607B64 /* ECRingChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7EE316F2C3FAE71831EE8D704D326 /* ECRingChart.m */; };
+		5B438E035F578D18BC822C0E337EFAFE /* ECPieForeBGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5D1243FACF7B365087662872E56299 /* ECPieForeBGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E16D757C15242B2E649110018A876C8 /* ECShowInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F2038E338B2D1F6D7AF6E872CCF640 /* ECShowInfoView.m */; };
+		62C6C2965F2728D91FE9E6625CEB7705 /* Pods-ECChart_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE327C60775EBCEC169C1DD204C04EFF /* Pods-ECChart_Example-dummy.m */; };
+		6C555C47CEA79DE72A7A46E785CCA3BD /* ECChart.h in Headers */ = {isa = PBXBuildFile; fileRef = D365EFF878969D1977C9AD23486EB62A /* ECChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5742864B7728ADFDC35834E80764B7 /* ECChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 879E15DFA8D67DC062314A10C8EE25D8 /* ECChart.m */; };
+		7850A5D76DB1281B210150B3FE32D2CD /* ECColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4723745CB311F0377EC630A433F456 /* ECColumnChart.m */; };
+		7AFC92CF9AB24ACE639C75CDEE1E7587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7BF58D41F225AA075D156E231B66A3B8 /* ECChartHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 849597AB0814F205BE54436AAB977413 /* ECChartHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E1FD8C0AC7C03DFF3304E733A05E25 /* ECTableChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ECB427D2B2E73260E1103945464C02 /* ECTableChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CAE488958710F01BEAE7455A0886C94 /* ECColumnChart.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E71A0ECC172FEC7BA8B3E94232B2D6 /* ECColumnChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8C75BFA8BDA7628FFF7B27C4311875 /* ECPieForeBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = F149F97BDBC7DDDBF2D7CC117C396C98 /* ECPieForeBGView.m */; };
+		A7A144B8AB0063325882E9E3171D056B /* ECPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 336003588A5F8028BED4028715BF917F /* ECPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB23ACAB921B9FC785D9EA8FAF804473 /* ECLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C59C31D62D02D426094C28B7F62857 /* ECLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B07A9AE54927C1F83B8C8C68136AE0E5 /* ECTableDataRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B8201DB59FC4B71E18F4C01CA7D813 /* ECTableDataRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1AEE22B1AC9BF63679955D67389BE55 /* ECWaveChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D73DBF471033F1C70BF9D2593CAB7F3 /* ECWaveChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B26537426CB8614DFD70D75B0B2A8D8C /* ECRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A54332B2CEC2C8921B8A9C37DBB279D1 /* ECRadarChart.m */; };
+		CAA853782B2A194D63FC4ECCF17D710D /* ECLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B12D7A414E0F38BE5C6D3499A74530C /* ECLineChart.m */; };
+		CDFECF158BB2C7AB3FD8FD49D83E866F /* Pods-ECChart_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 770E45A5FF0325DE188E7C61E1A387EF /* Pods-ECChart_Tests-dummy.m */; };
+		DC789938B99B48768A7862E05B234EF5 /* ECWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC36EA0A3D3F5954CCBAD0A8950CCE5 /* ECWaveChart.m */; };
+		F0B87A7BF4BDD54361D85EB4826F9713 /* ECChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FF93C19B174DB9E91CEE30A793BD41 /* ECChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDFAE1E7E2057754DAB5FA0C7E22F051 /* ECPieItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC94B9D3F3ADCB10680DE2891CD85C7 /* ECPieItemsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A8C9ED788FE053C9484DDF5E5B30D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2AFDAEA7DCEB9FA7733038D6C2D6A9;
+			remoteInfo = ECChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049A3889F8C16BD9C9AA1C9B03B3254A /* Pods-ECChart_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECChart_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F4723745CB311F0377EC630A433F456 /* ECColumnChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECColumnChart.m; sourceTree = "<group>"; };
+		0F5236C37E9498F1FF3CE70266BA742A /* Pods-ECChart_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECChart_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		146F803BD276BB0EA6FF84CAD68113EC /* Pods_ECChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECChart_Example.framework; path = "Pods-ECChart_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E4D9A4E7B7A48F189583DC242C1BCC /* Pods_ECChart_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ECChart_Tests.framework; path = "Pods-ECChart_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC36EA0A3D3F5954CCBAD0A8950CCE5 /* ECWaveChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECWaveChart.m; sourceTree = "<group>"; };
+		2B12D7A414E0F38BE5C6D3499A74530C /* ECLineChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECLineChart.m; sourceTree = "<group>"; };
+		2FE7EE316F2C3FAE71831EE8D704D326 /* ECRingChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECRingChart.m; sourceTree = "<group>"; };
+		336003588A5F8028BED4028715BF917F /* ECPieChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPieChart.h; sourceTree = "<group>"; };
+		34ECB427D2B2E73260E1103945464C02 /* ECTableChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECTableChart.h; sourceTree = "<group>"; };
+		3BC2454E8567765E58349C3E600F5096 /* Pods-ECChart_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ECChart_Tests.modulemap"; sourceTree = "<group>"; };
+		40715D3B402654102E6211B9EE7F8E89 /* Pods-ECChart_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECChart_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47B8201DB59FC4B71E18F4C01CA7D813 /* ECTableDataRowModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECTableDataRowModel.h; sourceTree = "<group>"; };
+		4AC7A93EF48ACE032E5D7EA2423A8465 /* ECChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECChart.xcconfig; sourceTree = "<group>"; };
+		539A519C0088E4F3A897F2F628086FFB /* Pods-ECChart_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECChart_Example-frameworks.sh"; sourceTree = "<group>"; };
+		55FF93C19B174DB9E91CEE30A793BD41 /* ECChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECChart-umbrella.h"; sourceTree = "<group>"; };
+		56A0DF492BF3C33F7468BB5098FA0447 /* ECRadarChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECRadarChart.h; sourceTree = "<group>"; };
+		5CC94B9D3F3ADCB10680DE2891CD85C7 /* ECPieItemsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPieItemsView.m; sourceTree = "<group>"; };
+		5EA93079B3D280659E324C622503D4F7 /* ECPieItemsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPieItemsView.h; sourceTree = "<group>"; };
+		61911B0759E37BDB2A1B2589A2EB9A35 /* ECChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ECChart.framework; path = ECChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6922235A8C851FADAABD7E0870C9D347 /* ECPieChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPieChart.m; sourceTree = "<group>"; };
+		6B80AF537745F3DEAA053BC835F41D0E /* Pods-ECChart_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECChart_Example-resources.sh"; sourceTree = "<group>"; };
+		6C1332AE3E22C2D72CC18E3EC383F260 /* Pods-ECChart_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECChart_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CA4EFF43B9CF54CD55CEB7C17E9BB14 /* Pods-ECChart_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECChart_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		75CC4EB7FED141FE7EB489B74B60E308 /* Pods-ECChart_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ECChart_Example.modulemap"; sourceTree = "<group>"; };
+		770E45A5FF0325DE188E7C61E1A387EF /* Pods-ECChart_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECChart_Tests-dummy.m"; sourceTree = "<group>"; };
+		78C4B784699D0E448ED0E1E6AB04BC69 /* ECShowInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECShowInfoView.h; sourceTree = "<group>"; };
+		78C59C31D62D02D426094C28B7F62857 /* ECLineChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECLineChart.h; sourceTree = "<group>"; };
+		7A5D1243FACF7B365087662872E56299 /* ECPieForeBGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECPieForeBGView.h; sourceTree = "<group>"; };
+		7EFE21F2B7820D85C07F483FD047E9C2 /* Pods-ECChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECChart_Example.release.xcconfig"; sourceTree = "<group>"; };
+		82BF6AC6BEC61D9230041E4577462DE2 /* ECTableDataRowModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECTableDataRowModel.m; sourceTree = "<group>"; };
+		849597AB0814F205BE54436AAB977413 /* ECChartHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECChartHeader.h; sourceTree = "<group>"; };
+		879E15DFA8D67DC062314A10C8EE25D8 /* ECChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECChart.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B1C610D7CCE8E3D7FD079C30DE5E6D /* ECChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ECChart.modulemap; sourceTree = "<group>"; };
+		98B4D5780E16EBE9F6CE0642CCC70E1D /* ECChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECChart-prefix.pch"; sourceTree = "<group>"; };
+		9D73DBF471033F1C70BF9D2593CAB7F3 /* ECWaveChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECWaveChart.h; sourceTree = "<group>"; };
+		9E56D3A487AFAAADDC83A074DC4D9193 /* Pods-ECChart_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECChart_Tests-resources.sh"; sourceTree = "<group>"; };
+		A54332B2CEC2C8921B8A9C37DBB279D1 /* ECRadarChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECRadarChart.m; sourceTree = "<group>"; };
+		A6B21A4E6E98F07CB374113FD4AFC670 /* ECRingChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECRingChart.h; sourceTree = "<group>"; };
+		C12C2D604B0C9CD998804370269B1693 /* Pods-ECChart_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECChart_Example-umbrella.h"; sourceTree = "<group>"; };
+		C9F2038E338B2D1F6D7AF6E872CCF640 /* ECShowInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECShowInfoView.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D365EFF878969D1977C9AD23486EB62A /* ECChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECChart.h; sourceTree = "<group>"; };
+		D69C653D3D2FCE1DE4BE58F5A154D252 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE01E3EA8B68CFABFB18F4866D96669 /* Pods-ECChart_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECChart_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DE327C60775EBCEC169C1DD204C04EFF /* Pods-ECChart_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECChart_Example-dummy.m"; sourceTree = "<group>"; };
+		E214E7304695C7482B34F190368427B4 /* Pods-ECChart_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECChart_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E7089B2993E9CB165B7C048F47E54ED7 /* ECChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECChart-dummy.m"; sourceTree = "<group>"; };
+		E791788BDD3BA94E3174A59B9A324035 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE5B3DC2749739310F653DD1A5D0F53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0DC6596873B57A01D6843D186A56ED1 /* Pods-ECChart_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECChart_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F149F97BDBC7DDDBF2D7CC117C396C98 /* ECPieForeBGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECPieForeBGView.m; sourceTree = "<group>"; };
+		F1E71A0ECC172FEC7BA8B3E94232B2D6 /* ECColumnChart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECColumnChart.h; sourceTree = "<group>"; };
+		F3DA1358D90120ED868BA2B938487C17 /* Pods-ECChart_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECChart_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD07D99200FA518D04C6DADD604CD390 /* ECTableChart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ECTableChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FBDA36F76739297300388F942C4B2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B95032A5ABF4A049403978C04144D71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A60487A3731E7264998873682BCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC92CF9AB24ACE639C75CDEE1E7587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3CDF18F4FB2D426675C03F30DC43B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435DB9B8FBB014DEA9BECF2C8848BA7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F161F4D706413E8846DBDCCAD9E85C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B1C610D7CCE8E3D7FD079C30DE5E6D /* ECChart.modulemap */,
+				4AC7A93EF48ACE032E5D7EA2423A8465 /* ECChart.xcconfig */,
+				E7089B2993E9CB165B7C048F47E54ED7 /* ECChart-dummy.m */,
+				98B4D5780E16EBE9F6CE0642CCC70E1D /* ECChart-prefix.pch */,
+				55FF93C19B174DB9E91CEE30A793BD41 /* ECChart-umbrella.h */,
+				EFE5B3DC2749739310F653DD1A5D0F53 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECChart";
+			sourceTree = "<group>";
+		};
+		28D83A32ED7016AB01BC76CB4722CFAE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D365EFF878969D1977C9AD23486EB62A /* ECChart.h */,
+				879E15DFA8D67DC062314A10C8EE25D8 /* ECChart.m */,
+				849597AB0814F205BE54436AAB977413 /* ECChartHeader.h */,
+				F1E71A0ECC172FEC7BA8B3E94232B2D6 /* ECColumnChart.h */,
+				0F4723745CB311F0377EC630A433F456 /* ECColumnChart.m */,
+				78C59C31D62D02D426094C28B7F62857 /* ECLineChart.h */,
+				2B12D7A414E0F38BE5C6D3499A74530C /* ECLineChart.m */,
+				336003588A5F8028BED4028715BF917F /* ECPieChart.h */,
+				6922235A8C851FADAABD7E0870C9D347 /* ECPieChart.m */,
+				7A5D1243FACF7B365087662872E56299 /* ECPieForeBGView.h */,
+				F149F97BDBC7DDDBF2D7CC117C396C98 /* ECPieForeBGView.m */,
+				5EA93079B3D280659E324C622503D4F7 /* ECPieItemsView.h */,
+				5CC94B9D3F3ADCB10680DE2891CD85C7 /* ECPieItemsView.m */,
+				56A0DF492BF3C33F7468BB5098FA0447 /* ECRadarChart.h */,
+				A54332B2CEC2C8921B8A9C37DBB279D1 /* ECRadarChart.m */,
+				A6B21A4E6E98F07CB374113FD4AFC670 /* ECRingChart.h */,
+				2FE7EE316F2C3FAE71831EE8D704D326 /* ECRingChart.m */,
+				78C4B784699D0E448ED0E1E6AB04BC69 /* ECShowInfoView.h */,
+				C9F2038E338B2D1F6D7AF6E872CCF640 /* ECShowInfoView.m */,
+				34ECB427D2B2E73260E1103945464C02 /* ECTableChart.h */,
+				FD07D99200FA518D04C6DADD604CD390 /* ECTableChart.m */,
+				47B8201DB59FC4B71E18F4C01CA7D813 /* ECTableDataRowModel.h */,
+				82BF6AC6BEC61D9230041E4577462DE2 /* ECTableDataRowModel.m */,
+				9D73DBF471033F1C70BF9D2593CAB7F3 /* ECWaveChart.h */,
+				2AC36EA0A3D3F5954CCBAD0A8950CCE5 /* ECWaveChart.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				98ABDD42C4A4D2797D04D7A8E64DE39F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D5B49829D14CAA250D3DC33C61586679 /* Products */,
+				D462C85039CEF685903943EE3F56A2F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F885D83A2833005971ACC9A072350A6 /* Pods-ECChart_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E791788BDD3BA94E3174A59B9A324035 /* Info.plist */,
+				3BC2454E8567765E58349C3E600F5096 /* Pods-ECChart_Tests.modulemap */,
+				40715D3B402654102E6211B9EE7F8E89 /* Pods-ECChart_Tests-acknowledgements.markdown */,
+				6C1332AE3E22C2D72CC18E3EC383F260 /* Pods-ECChart_Tests-acknowledgements.plist */,
+				770E45A5FF0325DE188E7C61E1A387EF /* Pods-ECChart_Tests-dummy.m */,
+				DAE01E3EA8B68CFABFB18F4866D96669 /* Pods-ECChart_Tests-frameworks.sh */,
+				9E56D3A487AFAAADDC83A074DC4D9193 /* Pods-ECChart_Tests-resources.sh */,
+				E214E7304695C7482B34F190368427B4 /* Pods-ECChart_Tests-umbrella.h */,
+				0F5236C37E9498F1FF3CE70266BA742A /* Pods-ECChart_Tests.debug.xcconfig */,
+				F0DC6596873B57A01D6843D186A56ED1 /* Pods-ECChart_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECChart_Tests";
+			path = "Target Support Files/Pods-ECChart_Tests";
+			sourceTree = "<group>";
+		};
+		98ABDD42C4A4D2797D04D7A8E64DE39F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F177F609A7D994AE829CA57F4BDD94A /* ECChart */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9F177F609A7D994AE829CA57F4BDD94A /* ECChart */ = {
+			isa = PBXGroup;
+			children = (
+				AFD7FDF9D3A195F067229F9415AAC4F6 /* ECChart */,
+				04F161F4D706413E8846DBDCCAD9E85C /* Support Files */,
+			);
+			name = ECChart;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AFD7FDF9D3A195F067229F9415AAC4F6 /* ECChart */ = {
+			isa = PBXGroup;
+			children = (
+				28D83A32ED7016AB01BC76CB4722CFAE /* Classes */,
+			);
+			name = ECChart;
+			path = ECChart;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD7D39BA8EE457ED7B8916ADBC0C584E /* Pods-ECChart_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D69C653D3D2FCE1DE4BE58F5A154D252 /* Info.plist */,
+				75CC4EB7FED141FE7EB489B74B60E308 /* Pods-ECChart_Example.modulemap */,
+				049A3889F8C16BD9C9AA1C9B03B3254A /* Pods-ECChart_Example-acknowledgements.markdown */,
+				F3DA1358D90120ED868BA2B938487C17 /* Pods-ECChart_Example-acknowledgements.plist */,
+				DE327C60775EBCEC169C1DD204C04EFF /* Pods-ECChart_Example-dummy.m */,
+				539A519C0088E4F3A897F2F628086FFB /* Pods-ECChart_Example-frameworks.sh */,
+				6B80AF537745F3DEAA053BC835F41D0E /* Pods-ECChart_Example-resources.sh */,
+				C12C2D604B0C9CD998804370269B1693 /* Pods-ECChart_Example-umbrella.h */,
+				6CA4EFF43B9CF54CD55CEB7C17E9BB14 /* Pods-ECChart_Example.debug.xcconfig */,
+				7EFE21F2B7820D85C07F483FD047E9C2 /* Pods-ECChart_Example.release.xcconfig */,
+			);
+			name = "Pods-ECChart_Example";
+			path = "Target Support Files/Pods-ECChart_Example";
+			sourceTree = "<group>";
+		};
+		D462C85039CEF685903943EE3F56A2F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD7D39BA8EE457ED7B8916ADBC0C584E /* Pods-ECChart_Example */,
+				7F885D83A2833005971ACC9A072350A6 /* Pods-ECChart_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D5B49829D14CAA250D3DC33C61586679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61911B0759E37BDB2A1B2589A2EB9A35 /* ECChart.framework */,
+				146F803BD276BB0EA6FF84CAD68113EC /* Pods_ECChart_Example.framework */,
+				24E4D9A4E7B7A48F189583DC242C1BCC /* Pods_ECChart_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		123FFF399687D487E1CC9465BD2AB271 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E09E9DF4DC964472528E7C69FCDE01 /* Pods-ECChart_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20615350C2E14FF594370D2A8FA07A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0D84EBB2B670E46850FA27CC0114B6 /* Pods-ECChart_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B99CAB078EF1F3545D5191FFEB6BCC29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B87A7BF4BDD54361D85EB4826F9713 /* ECChart-umbrella.h in Headers */,
+				6C555C47CEA79DE72A7A46E785CCA3BD /* ECChart.h in Headers */,
+				7BF58D41F225AA075D156E231B66A3B8 /* ECChartHeader.h in Headers */,
+				8CAE488958710F01BEAE7455A0886C94 /* ECColumnChart.h in Headers */,
+				AB23ACAB921B9FC785D9EA8FAF804473 /* ECLineChart.h in Headers */,
+				A7A144B8AB0063325882E9E3171D056B /* ECPieChart.h in Headers */,
+				5B438E035F578D18BC822C0E337EFAFE /* ECPieForeBGView.h in Headers */,
+				0BE7455833EBECEA2D9E1FF78A21AE5E /* ECPieItemsView.h in Headers */,
+				0750D45CA4BB105CD662B30074735652 /* ECRadarChart.h in Headers */,
+				40F443C2197F0249E1CF9421EA852B7F /* ECRingChart.h in Headers */,
+				1FAFAE89F2C7BE5F2EA57B6E29D87F98 /* ECShowInfoView.h in Headers */,
+				87E1FD8C0AC7C03DFF3304E733A05E25 /* ECTableChart.h in Headers */,
+				B07A9AE54927C1F83B8C8C68136AE0E5 /* ECTableDataRowModel.h in Headers */,
+				B1AEE22B1AC9BF63679955D67389BE55 /* ECWaveChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AB5A2051FD7FA9041C169FA86E337A9 /* Pods-ECChart_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D697403010D79E6C9BD859431318E74D /* Build configuration list for PBXNativeTarget "Pods-ECChart_Example" */;
+			buildPhases = (
+				AE1CD4C962C8B6B1BCE03D261EC846E4 /* Sources */,
+				EA3CDF18F4FB2D426675C03F30DC43B6 /* Frameworks */,
+				B20615350C2E14FF594370D2A8FA07A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4167E3DD97FB700B7A9F07D913B4A3D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECChart_Example";
+			productName = "Pods-ECChart_Example";
+			productReference = 146F803BD276BB0EA6FF84CAD68113EC /* Pods_ECChart_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABA518844F87DA9A83B84950334A9E8A /* Pods-ECChart_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF5A73FBA51554CC241C5CBB7B87D4A /* Build configuration list for PBXNativeTarget "Pods-ECChart_Tests" */;
+			buildPhases = (
+				1687CC4B78C7A5BB2B839A0256802EDE /* Sources */,
+				7FBDA36F76739297300388F942C4B2F4 /* Frameworks */,
+				123FFF399687D487E1CC9465BD2AB271 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ECChart_Tests";
+			productName = "Pods-ECChart_Tests";
+			productReference = 24E4D9A4E7B7A48F189583DC242C1BCC /* Pods_ECChart_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE2AFDAEA7DCEB9FA7733038D6C2D6A9 /* ECChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE20BD536FA08ED8A68E63671D531F3 /* Build configuration list for PBXNativeTarget "ECChart" */;
+			buildPhases = (
+				E4FA11D5AB1368B2D63C6B6A08D1B0B1 /* Sources */,
+				C07A60487A3731E7264998873682BCCE /* Frameworks */,
+				B99CAB078EF1F3545D5191FFEB6BCC29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECChart;
+			productName = ECChart;
+			productReference = 61911B0759E37BDB2A1B2589A2EB9A35 /* ECChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D5B49829D14CAA250D3DC33C61586679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2AFDAEA7DCEB9FA7733038D6C2D6A9 /* ECChart */,
+				9AB5A2051FD7FA9041C169FA86E337A9 /* Pods-ECChart_Example */,
+				ABA518844F87DA9A83B84950334A9E8A /* Pods-ECChart_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1687CC4B78C7A5BB2B839A0256802EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFECF158BB2C7AB3FD8FD49D83E866F /* Pods-ECChart_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1CD4C962C8B6B1BCE03D261EC846E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C6C2965F2728D91FE9E6625CEB7705 /* Pods-ECChart_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4FA11D5AB1368B2D63C6B6A08D1B0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF8370A2C399B9F0B1F75C860B3AD45 /* ECChart-dummy.m in Sources */,
+				6C5742864B7728ADFDC35834E80764B7 /* ECChart.m in Sources */,
+				7850A5D76DB1281B210150B3FE32D2CD /* ECColumnChart.m in Sources */,
+				CAA853782B2A194D63FC4ECCF17D710D /* ECLineChart.m in Sources */,
+				10BC9D13E958E4A2BE2388CFD3813F99 /* ECPieChart.m in Sources */,
+				9F8C75BFA8BDA7628FFF7B27C4311875 /* ECPieForeBGView.m in Sources */,
+				FDFAE1E7E2057754DAB5FA0C7E22F051 /* ECPieItemsView.m in Sources */,
+				B26537426CB8614DFD70D75B0B2A8D8C /* ECRadarChart.m in Sources */,
+				59C6ED500978E35EBBEB39CB7F607B64 /* ECRingChart.m in Sources */,
+				5E16D757C15242B2E649110018A876C8 /* ECShowInfoView.m in Sources */,
+				2889EDB422AC2ED0DBB8B5B2C2CB8C7F /* ECTableChart.m in Sources */,
+				2EFFFBAC9EC6E95623323D1CCFC41E7F /* ECTableDataRowModel.m in Sources */,
+				DC789938B99B48768A7862E05B234EF5 /* ECWaveChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4167E3DD97FB700B7A9F07D913B4A3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECChart;
+			target = CE2AFDAEA7DCEB9FA7733038D6C2D6A9 /* ECChart */;
+			targetProxy = 08A8C9ED788FE053C9484DDF5E5B30D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A8D71851A4D5C75C3BA686DF56E7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA4EFF43B9CF54CD55CEB7C17E9BB14 /* Pods-ECChart_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECChart_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECChart_Example/Pods-ECChart_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECChart_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0426219157D12DAC3290802EEF5D5CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0DC6596873B57A01D6843D186A56ED1 /* Pods-ECChart_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECChart_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECChart_Tests/Pods-ECChart_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECChart_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		561A80E0C98DE787D2D1976E25A8F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFE21F2B7820D85C07F483FD047E9C2 /* Pods-ECChart_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECChart_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECChart_Example/Pods-ECChart_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECChart_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56D28D2F06AE01C0F7654FDEBF99434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC7A93EF48ACE032E5D7EA2423A8465 /* ECChart.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECChart/ECChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECChart/ECChart.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80DC6D2D7F1E3648F8D583F1CAB3CFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC7A93EF48ACE032E5D7EA2423A8465 /* ECChart.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECChart/ECChart-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECChart/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECChart/ECChart.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECChart;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9347C156B0EECB2318A772098CC52BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5236C37E9498F1FF3CE70266BA742A /* Pods-ECChart_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECChart_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ECChart_Tests/Pods-ECChart_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ECChart_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF5A73FBA51554CC241C5CBB7B87D4A /* Build configuration list for PBXNativeTarget "Pods-ECChart_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9347C156B0EECB2318A772098CC52BEF /* Debug */,
+				0426219157D12DAC3290802EEF5D5CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE20BD536FA08ED8A68E63671D531F3 /* Build configuration list for PBXNativeTarget "ECChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56D28D2F06AE01C0F7654FDEBF99434D /* Debug */,
+				80DC6D2D7F1E3648F8D583F1CAB3CFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D697403010D79E6C9BD859431318E74D /* Build configuration list for PBXNativeTarget "Pods-ECChart_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A8D71851A4D5C75C3BA686DF56E7CA /* Debug */,
+				561A80E0C98DE787D2D1976E25A8F86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

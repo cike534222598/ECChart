@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		72307AA86A80A4FAFF05C6D3 /* Pods_ECChart_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9F2BB5B1A7D7C80A55D8BC /* Pods_ECChart_Tests.framework */; };
+		7915A0871DEEB1D4004DB980 /* ECChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7915A0861DEEB1D4004DB980 /* ECChartViewController.m */; };
 		86078A39A69AB1D999223873 /* Pods_ECChart_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA94088764F44A1A85EA820 /* Pods_ECChart_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -60,11 +61,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		680FBEFA9ADCFC583681A07A /* Pods-ECChart_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECChart_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ECChart_Example/Pods-ECChart_Example.release.xcconfig"; sourceTree = "<group>"; };
-		858485FA4440188D32626ACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7915A0851DEEB1D4004DB980 /* ECChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECChartViewController.h; sourceTree = "<group>"; };
+		7915A0861DEEB1D4004DB980 /* ECChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECChartViewController.m; sourceTree = "<group>"; };
+		858485FA4440188D32626ACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		997D9E92887BED6D76B280E3 /* ECChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ECChart.podspec; path = ../ECChart.podspec; sourceTree = "<group>"; };
+		997D9E92887BED6D76B280E3 /* ECChart.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECChart.podspec; path = ../ECChart.podspec; sourceTree = "<group>"; };
 		AAA94088764F44A1A85EA820 /* Pods_ECChart_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECChart_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BADE5C0ED270E7028C22B454 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BADE5C0ED270E7028C22B454 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ECViewController.h */,
 				6003F5A6195388D20070C39A /* ECViewController.m */,
+				7915A0851DEEB1D4004DB980 /* ECChartViewController.h */,
+				7915A0861DEEB1D4004DB980 /* ECChartViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -393,6 +398,7 @@
 				6003F59E195388D20070C39A /* ECAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ECViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				7915A0871DEEB1D4004DB980 /* ECChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

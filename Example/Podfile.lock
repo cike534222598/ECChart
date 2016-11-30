@@ -1,0 +1,16 @@
+PODS:
+  - ECChart (1.0.0)
+
+DEPENDENCIES:
+  - ECChart (from `../`)
+
+EXTERNAL SOURCES:
+  ECChart:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ECChart: b1f872067768a067783b26ec1881b6b3c97dc679
+
+PODFILE CHECKSUM: 3e2a3bb61d4d78b9f45f24105e0bf32b78c67a62
+
+COCOAPODS: 1.1.1

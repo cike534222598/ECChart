@@ -1,0 +1,6 @@
+framework module ECChart {
+  umbrella header "ECChart-umbrella.h"
+
+  export *
+  module * { export * }
+}
