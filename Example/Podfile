@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ECChart_Example' do
+  pod 'ECChart', :path => '../'
+
+  target 'ECChart_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
